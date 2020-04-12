@@ -1,0 +1,7 @@
+spring:
+   datasource:
+      type: com.zaxxer.hikari.HikariDataSource
+      url: jdbc:postgresql://192.168.99.100:5432/schooldb
+      username: postgres
+      password: 1234
+logging.level.com.zaxxer.hikari: debug
